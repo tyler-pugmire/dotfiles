@@ -1,0 +1,39 @@
+{
+  "skip_processing": [
+    "README.md",
+    "LICENSE",
+    "Makefile",
+    "install.ps1",
+    "overrides.json",
+    "overrides.yaml",
+    "install_fonts.ps1",
+    "fonts"
+  ],
+  "macos": {
+  },
+  "linux": {
+    "nvim": [
+      "~/.config/nvim"
+    ],
+    "wezterm": [
+      "~/.config/wezterm"
+    ],
+    "starship.toml": [
+        "~/.config/starship.toml"
+    ]
+  },
+  "windows": {
+    "nvim": [
+      "%LOCALAPPDATA%/nvim"
+    ],
+    "wezterm": [
+      "~/.config/wezterm"
+    ],
+    "profile.ps1": [
+        "C:/Program Files/PowerShell/7/profile.ps1"
+    ],
+    "starship.toml": [
+        "~/.config/starship.toml"
+    ]
+  }
+}
